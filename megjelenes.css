@@ -11,6 +11,12 @@
     padding: 10px;
 }
 
+.article>img{
+    border: 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 h1{
     color: rgb(0, 135, 104);
 }
@@ -37,6 +43,9 @@ nav>a{
 #bal{
     grid-area: bt;
     margin-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 #jobb{
